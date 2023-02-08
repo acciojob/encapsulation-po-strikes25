@@ -7,8 +7,8 @@ public class Main {
         System.out.println(obj_ect.name); // Error : name has private access in com.driver.RWOnly
         */
 
-        System.out.println(obj_ect.setter("Shilpi")); //  setter() to set the value of the private variable
-        System.out.println(obj_ect.getter()); // getter() to access the private variable
+        obj_ect.setName("Shilpi"); //  setter() to set the value of the private variable
+        System.out.println(obj_ect.getName()); // getter() to access the private variable
 
     }
 }
