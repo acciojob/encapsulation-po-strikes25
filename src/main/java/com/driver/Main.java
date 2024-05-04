@@ -7,7 +7,7 @@ public class Main {
         rw.name = "Shilpi";
         System.out.println(rw.name); */
 
-        rw.setter("Shilpi");
-        System.out.println(rw.getter());
+        rw.setName("Shilpi");
+        System.out.println(rw.getName());
     }
 }
